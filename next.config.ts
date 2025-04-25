@@ -7,6 +7,12 @@ const nextConfig: NextConfig = {
       protocol: 'https',
       hostname: '**',
     }]
+  },
+  experimental: {
+    ppr: 'incremental',
+  },
+  devIndicators: {
+    position: "bottom-right",
   }
 };
 
